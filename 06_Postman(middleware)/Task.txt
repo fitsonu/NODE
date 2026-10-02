@@ -1,0 +1,22 @@
+REST API-JSON
+
+GET/users -list all users
+GET/api/users -list all users
+GET/api/users/1-Get the user with id 1
+GET/api/users/2-Get the user with id 2
+
+
+
+///-> api is used becoz if data get requested from mobile app then it should return form mobile app in the form of json else /users only then it respond in html format for the web browser
+
+POST/api/users -Create new user
+
+PATCH/api/users/1-edit the user with id 1
+ DELETE/api/users/1-Delete the user with id 1
+
+ here 1/2 is called as dynamic path parameters
+ it is denoted as
+ GET/api/users/:id
+ :id-> Variable
+
+ delete/post/patch is not possible to perfrom becoz the browser do get request but for learning purpose we will creates routes of this
